@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Manatee.Trello" Version="4.4.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleUtilities\ConsoleUtilities.csproj" />
+    <ProjectReference Include="..\Credentials\Credentials.csproj" />
+    <ProjectReference Include="..\EdsPortal.RestfulWebService\EdsPortal.RestfulWebService.csproj" />
+    <ProjectReference Include="..\https115бел.WebPortal\https115бел.WebPortal.csproj" />
+    <ProjectReference Include="..\https115белToTrelloSync\https115белToTrelloSync.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <OutputType>exe</OutputType>
+    <OutputPath>..\bin\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AnalysisMode>All</AnalysisMode>
+    <AssemblyName>АбнавіцьКарткіНаДошкахTrello</AssemblyName>
+    <RootNamespace>IWalkBy.ConsoleUtilities</RootNamespace>
+  </PropertyGroup>
+</Project>

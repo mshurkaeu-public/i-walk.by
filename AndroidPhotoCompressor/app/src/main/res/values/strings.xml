@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidPhotoCompressor</string>
+    <string name="title_activity_main">Запуск кампрэсара</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Чакаю ўваходзячыя файлы</string>
+
+    <string name="hello_first_fragment">original.jpg і потым сігнал праз ping.txt</string>
+</resources>

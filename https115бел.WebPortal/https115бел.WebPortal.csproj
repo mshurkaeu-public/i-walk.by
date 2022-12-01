@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+  </ItemGroup>
+  <PropertyGroup>
+    <OutputType>library</OutputType>
+    <OutputPath>..\bin\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AnalysisMode>All</AnalysisMode>
+    <AssemblyName>IWalkBy.https115бел.WebPortal</AssemblyName>
+    <RootNamespace>IWalkBy.https115бел.WebPortal</RootNamespace>
+  </PropertyGroup>
+</Project>

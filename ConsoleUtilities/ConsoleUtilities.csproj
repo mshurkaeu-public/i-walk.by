@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Credentials\Credentials.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <OutputType>library</OutputType>
+    <OutputPath>..\bin\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AnalysisMode>All</AnalysisMode>
+    <AssemblyName>IWalkBy.ConsoleUtilities</AssemblyName>
+    <RootNamespace>IWalkBy.ConsoleUtilities</RootNamespace>
+  </PropertyGroup>
+</Project>

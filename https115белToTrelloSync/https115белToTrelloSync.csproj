@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Emgu.CV" Version="4.5.5.4823" />
+    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.5.5.4823" />
+    <PackageReference Include="Manatee.Trello" Version="4.4.2" />
+    <PackageReference Include="MetadataExtractor" Version="2.7.2" />
+    <PackageReference Include="NetTopologySuite" Version="2.5.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.80" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EdsPortal.RestfulWebService\EdsPortal.RestfulWebService.csproj" />
+    <ProjectReference Include="..\https115бел.WebPortal\https115бел.WebPortal.csproj" />
+    <ProjectReference Include="..\TextUtils\TextUtils.csproj" />
+    <ProjectReference Include="..\Trello\Trello.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <OutputType>library</OutputType>
+    <OutputPath>..\bin\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AnalysisMode>All</AnalysisMode>
+    <AssemblyName>IWalkBy.https115белToTrelloSync</AssemblyName>
+    <RootNamespace>IWalkBy.https115белToTrelloSync</RootNamespace>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Manatee.Trello" Version="4.4.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Telegram.Bot" Version="18.0.0" />
+    <PackageReference Include="Telegram.Bot.Extensions.Polling" Version="1.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleUtilities\ConsoleUtilities.csproj" />
+    <ProjectReference Include="..\Credentials\Credentials.csproj" />
+    <ProjectReference Include="..\TextUtils\TextUtils.csproj" />
+    <ProjectReference Include="..\Trello\Trello.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <OutputType>exe</OutputType>
+    <OutputPath>..\bin\Боцік\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AnalysisMode>All</AnalysisMode>
+    <AssemblyName>Боцік_115bel_bot</AssemblyName>
+    <RootNamespace>IWalkBy.TelegramBots.Боцік_115bel_bot</RootNamespace>
+  </PropertyGroup>
+</Project>
